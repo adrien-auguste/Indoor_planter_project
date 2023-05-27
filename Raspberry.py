@@ -110,7 +110,7 @@ def window():
 		# Reading the current preset parameters in this program the global vairable
 		label_actual = Label(win, text="Actual Parameters are :", bg= 'blue', fg ='white', height =1 , width =25)
 		label_actual.grid(row =9, column =1)
-		label_current_heater_temperature = Label(win, text="Current temperature to start heater is: "+str(temp_sensor), bg='blue', fg='white', height =1, width =35)
+		label_current_heater_temperature = Label(win, text="Current temperature to stop the heater is: "+str(temp_sensor), bg='blue', fg='white', height =1, width =35)
 		label_current_heater_temperature.grid(row=11,column =1)
 		label_current_UV_time =Label(win, text="The start and end time for UV light is between: "+Start_UV_light+"and "+ End_UV_light, bg= 'blue', fg ='white', height =1 , width =55)
 		label_current_UV_time.grid(row =13, column =1)
