@@ -166,7 +166,7 @@ def window():
 				
 				
 		# Label to ask user for minimum temperature for heater to turn on
-		label_min_temp= Label(win, text="New temperature for heater to start:",height =1)
+		label_min_temp= Label(win, text="New temperature for heater to stop:",height =1)
 		label_min_temp.grid(row =17, column = 1)
 
 		# Button to execute the translation of the name to morse code
